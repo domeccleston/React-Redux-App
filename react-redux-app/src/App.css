@@ -9,12 +9,11 @@
 }
 
 body {
-  background-image: url('./img/kanye-head.jpg');
+  background-image: url("./img/kanye-head.jpg");
   font-family: Arial;
   font-weight: bold;
   text-transform: uppercase;
 }
-
 
 h1 {
   text-align: center;
