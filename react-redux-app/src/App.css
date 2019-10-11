@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  background-image: url("./img/kanye-head.jpg");
+  font-family: Arial;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h1 {
+  text-align: center;
+}
+
+.quote-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  top: 25em;
+  left: 40em;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 2em 4em 2em 4em;
+  background: yellow;
+  border: 2px solid black;
+}
+
+.search-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-top: 10em;
+}
+
+.search-input {
+  padding: 1em 10em 1em 2em;
+}
